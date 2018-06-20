@@ -1,0 +1,508 @@
+/*-------------------------------------------*/
+/*fonts*/
+/*-------------------------------------------*/
+.slab{
+    font-family: 'Roboto Slab', serif;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+.bold{
+    font-weight: 500;
+}
+.bolder{
+    font-weight: 700;
+}
+
+/*colors*/
+.blue-font{
+    color: #38bcdb;
+}
+.blue-hover{
+    background-color: #2e91a3;
+}
+.grey-font{
+    color: #a9aaab;
+}
+
+/*div{*/
+    /*border: solid 1px black;*/
+/*}*/
+
+/*---------------------------------------*/
+/* header */
+/*---------------------------------------*/
+.header{
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+    padding: 10px 40px;
+}
+.top-logo{
+    width: 250px;
+    display: inline-block;
+}
+.admission{
+    text-align: right;
+    padding: 15px 0 15px 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/*-------------------------------------*/
+/* code hero */
+/*--------------------------------------*/
+.code {
+    background-image: url("../Assets/code_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    color: #ffffff;
+    padding: 50px 50px;
+}
+.big-title{
+    font-weight: 700;
+    font-size: 35px;
+    width: 200px;
+    line-height: 1.15;
+}
+.sub-title{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+.code-title{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+.code-body{
+    text-align: right;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 0 8px 0;
+    width: 85%;
+    margin: 0 0 0 14%;
+}
+.code-border-blue{
+    border-bottom: solid 3px #38bcdb;
+    margin: 0 0 60px 0;
+}
+.code-border-white{
+    border-bottom: solid 3px #ffffff;
+}
+
+/* info card */
+.info {
+    width: 330px;
+    height: 150px;
+    background-color: #dcdcdc;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin: 30px 0 0 0;
+}
+.info-input{
+    text-align: center;
+    width: 150px;
+    border-width: 0 0 1px 0;
+    border-color: #000000;
+    margin: 5px 0;
+    background-color: #dcdcdc;
+    color: #000000;
+}
+.info-input::placeholder{
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+}
+.info-title{
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+.info-steps{
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+.info-btn{
+    width: 100%;
+    color: #ffffff;
+    background-color: #38bcdb;
+    font-size: 20px;
+    padding: 3px 12px;
+    margin: 3px 0 0 0;
+    opacity: 100%;
+
+}
+.info-btn:hover{
+    background-color: #2e91a3;
+    color: #ffffff;
+}
+.info-margin{
+    padding: 10px 10px;
+}
+
+
+/*----------------------------------------*/
+/* Featuring */
+/*----------------------------------------*/
+.featuring{
+    background-image: url("../Assets/featuring.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    padding: 5px 45px;
+}
+.featuring-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline solid;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.featuring-img{
+    padding: 10px 6%;
+}
+.phone{
+    width: 100%;
+}
+.featuring-icon{
+    width: 20%;
+    margin: 10px 40%;
+}
+.featuring-body{
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+}
+.asterisk{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.featuring-box{
+    height: 50%
+}
+
+/*--------------------------------------*/
+/* About */
+/*--------------------------------------*/
+.about{
+    background-image: url("../Assets/about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    padding: 20px 15%;
+}
+.about-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.about-body{
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*----------------------------------------*/
+/* FAQ */
+/*----------------------------------------*/
+.faq{
+    background-image: url("../Assets/faq.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 10%;
+}
+.faq-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.faq-body{
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    width: 92%;
+}
+.faq-bullet{
+    display: inline-block;
+    width: 20px;
+    vertical-align: top;
+}
+.bullet{
+    width: 17px;
+}
+
+/*------------------------------------------*/
+/* footer */
+/*------------------------------------------*/
+.footer{
+    background-color: #9cdeee;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 20px 6%;
+}
+.bottom-logo{
+    width: 250px;
+}
+.footer-body{
+    text-align: right;
+}
+
+
+/* for small view*/
+.full{
+    visibility: unset;
+}
+.mobile{
+    visibility: hidden;
+    height: 0;
+}
+
+/*--------------------------------------------*/
+/* media max 975px */
+/*--------------------------------------------*/
+@media screen and (max-width: 915px){
+    .full{
+        visibility: hidden;
+    }
+    .mobile{
+        visibility: unset;
+        height: unset;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* header mobile */
+    .header{
+        background-color: #000000;
+        color: #ffffff;
+        height: 150px;
+        padding: 10px 40px;
+    }
+    .top-logo{
+        margin: 0px 17.5%;
+        width: 250px;
+        display: inline-block;
+    }
+    .admission{
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    /* hero mobile*/
+    .code {
+        background-image: url("../Assets/mobile/code_mobile_hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: #ffffff;
+        padding: 50px 50px;
+    }
+    .big-title{
+        font-weight: 700;
+        font-size: 24px;
+        width: 100%;
+        line-height: 1.15;
+        text-align: center;
+        padding: 5px 0 0 0;
+    }
+    .sub-title{
+        font-size: 15px;
+        margin: 10px 0;
+        font-weight: 100;
+        text-align: center;
+        width: 100%;
+        padding: 0 0 10px 0;
+    }
+    .code-border-blue{
+        border-bottom: solid 3px #38bcdb;
+        margin: 0 0 0 0;
+        display: inline-block;
+    }
+    .code-arrows{
+        display: inline-block;
+        width:10%;
+        margin: 0 0 0 0;
+        font-size: 80px;
+        font-weight: 100;
+        vertical-align: top;
+        text-align: center;
+    }
+    .code-center{
+        width: 77.8%;
+        display: inline-block;
+    }
+    .code-width{
+        width: 100%;
+    }
+    .code-content{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 100;
+        padding: 10px 0;
+    }
+    /* info box mobile */
+    .info {
+        width: 100%;
+        height: 150px;
+        background-color: #ffffff;
+        opacity: 1;
+        border-radius: 5px;
+        margin: 30px 0 30px 0;
+    }
+    .info-input{
+        text-align: center;
+        width: 49.5%;
+        border-width: 0 0 1px 0;
+        border-color: #000000;
+        margin: 5px 0;
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .info-input::placeholder{
+        color: #000000;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .info-title{
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+    }
+    .info-steps{
+        font-size: 10px;
+        text-align: center;
+        color: #000000;
+    }
+    .info-btn{
+        width: 100%;
+        color: #ffffff;
+        background-color: #38bcdb;
+        font-size: 20px;
+        padding: 3px 12px;
+        margin: 3px 0 0 0;
+        opacity: 100%;
+
+    }
+    .info-btn:hover{
+        background-color: #2e91a3;
+        color: #ffffff;
+    }
+    .info-margin{
+        padding: 10px 10px;
+    }
+    /* featuring mobile */
+    .featuring{
+        background-image: url("../Assets/mobile/featuring_mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: #ffffff;
+        padding: 10px 45px;
+    }
+    .featuring-title{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline solid;
+        margin: 0;
+        padding: 0 0 5px 0;
+    }
+    .featuring-img{
+        padding: 10px 6%;
+    }
+    .phone{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .featuring-icon{
+        width: 20%;
+        margin: 10px 40%;
+    }
+    .featuring-body{
+        font-size: 13px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .asterisk{
+        font-size: 10px;
+        font-weight: 100;
+        text-align: center;
+        width: 100%;
+        padding: 30px 0 5px 0;
+    }
+    .featuring-box{
+        height: 50%
+    }
+    /* about mobile */
+    .about{
+        background-image: url("../Assets/mobile/about_mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: #ffffff;
+        padding: 45px 15%;
+    }
+    .about-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    .about-body{
+        padding: 20px 0;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    /* faq mobile */
+    .faq{
+        background-image: url("../Assets/mobile/fap_mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center bottom;
+        padding: 40px 10% 300px 10%;
+    }
+    .faq-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        text-decoration: underline;
+        margin: 0 0 25px 0;
+    }
+    .faq-body{
+        font-size: 12px;
+        font-weight: 500;
+        display: inline-block;
+        width: 93%;
+        margin: 5px 0;
+    }
+    .faq-bullet{
+        display: inline-block;
+        width: 20px;
+        vertical-align: top;
+    }
+    .bullet{
+        width: 17px;
+    }
+    /* footer mobile */
+    .footer{
+        background-color: #9cdeee;
+        font-size: 10px;
+        font-weight: 100;
+        padding: 20px 6%;
+    }
+    .bottom-logo{
+        width: 250px;
+    }
+    .footer-body{
+        text-align: center;
+    }
+}
